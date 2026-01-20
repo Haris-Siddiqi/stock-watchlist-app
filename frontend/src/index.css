@@ -1,6 +1,0 @@
-/* src/index.css — Tailwind v4 style */
-@import "tailwindcss";
-
-/* Tell Tailwind what files to scan (v4 uses @source in CSS) */
-@source "../index.html";
-@source "./**/*.{js,jsx,ts,tsx}";
