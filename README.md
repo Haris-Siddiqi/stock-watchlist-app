@@ -5,7 +5,7 @@ Users can select a ticker, view price trends and quick stats, then request marke
 
 ---
 
-## ✨ Features
+## Features
 
 - **Live Symbol Search** – Debounced search field backed by Finnhub’s `/search` endpoint, with validation and rate-limit handling.
 - **Watchlist Management** – Add up to 10 tickers, prevent duplicates, and remove items inline. Server-side rules enforce limits and return friendly errors.
@@ -22,7 +22,7 @@ Users can select a ticker, view price trends and quick stats, then request marke
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** JavaScript, React, Tailwind CSS, Recharts
 - **Backend:** Node.js (Express 5, Axios), PostgreSQL (`pg`)  
@@ -31,7 +31,7 @@ Users can select a ticker, view price trends and quick stats, then request marke
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -68,5 +68,5 @@ CONSTRAINT ticker_uppercase CHECK (ticker = UPPER(ticker))
 - Proxies `/api/*` to the backend (`vite.config.js` handles it)
 
 
-## 📜 License
+## License
 MIT
